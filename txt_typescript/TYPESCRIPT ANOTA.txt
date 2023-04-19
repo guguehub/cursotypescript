@@ -30,3 +30,6 @@ usar npx (local) e incluir --file ("typescript": "npx ts-node --files",)
 
 - aula,
 ESLINT-
+npm i eslint -D
+npm i @typescript-eslint/eslint-plugin @typescript-eslint/parser -D
+criar arquivo .eslintrc.js
