@@ -6,11 +6,11 @@
     "workbench.editor.enablePreview": false,
     "workbench.sideBar.location": "left",
     "workbench.list.smoothScrolling": true,
-  
+
     // Explorer
     "explorer.compactFolders": false,
     "explorer.confirmDelete": true,
-  
+
     // Editor and breadcrumbs
     "breadcrumbs.enabled": true,
     "editor.renderControlCharacters": false,
@@ -38,14 +38,14 @@
       "source.fixAll": true
     },
     "editor.suggestSelection": "first",
-  
+
     // Git
     "git.enableSmartCommit": true,
     "diffEditor.ignoreTrimWhitespace": false,
-  
+
     // Debug
     "debug.console.fontSize": 22,
-  
+
     // Files and search
     "files.defaultLanguage": "{activeEditorLanguage}",
     "files.exclude": {
@@ -60,18 +60,18 @@
       "**/.build": true,
       "**/.gh-pages": true
     },
-  
+
     // Terminal
     "terminal.integrated.copyOnSelection": false,
     "terminal.integrated.cursorBlinking": true,
     "terminal.integrated.cursorStyle": "line",
     "terminal.integrated.fontFamily": "'Operator Mono Lig Book', 'Fira Code', 'SF Mono', Consolas, 'Source Code Pro', 'Dank Mono', Menlo, 'Inconsolata', 'Droid Sans Mono', 'DejaVu Sans Mono', 'Ubuntu Mono', 'Courier New', Courier, Monaco, monospace",
-    "terminal.integrated.fontSize": 22,
+    "terminal.integrated.fontSize": 16,
     "terminal.integrated.drawBoldTextInBrightColors": false,
     "terminal.integrated.env.linux": {
       // "PORT": "4000"
     },
-  
+
     // Javascript & TypeScript
     "javascript.preferences.quoteStyle": "single",
     "typescript.preferences.quoteStyle": "single",
@@ -84,7 +84,7 @@
       "editor.suggestSelection": "recentlyUsed",
       "editor.suggest.showKeywords": false
     },
-  
+
     // Emmet
     "emmet.syntaxProfiles": {
       "javascript": "jsx"
@@ -94,7 +94,7 @@
       "javascript": "javascriptreact",
       "typescript": "typescriptreact"
     },
-  
+
     // Code runner
     "code-runner.clearPreviousOutput": true,
     "code-runner.ignoreSelection": true,
@@ -104,12 +104,12 @@
       "python": "python3 -u",
       "typescript": "npx ts-node --files --transpile-only"
     },
-  
+
     // Material icon theme extension
     "material-icon-theme.hidesExplorerArrows": true,
     // "material-icon-theme.folders.theme": "classic",
     "material-icon-theme.folders.color": "#6273a6",
-  
+
     "editor.inlineSuggest.enabled": true,
     "bracketPairColorizer.depreciation-notice": false,
     "github.copilot.enable": {

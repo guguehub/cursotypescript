@@ -1,8 +1,8 @@
 typescript
 
-criada pasta, 
+criada pasta,
 - criar um gitignore (gitignore.io) buscar node, copiar tudo
-- incluir no .gitignore 
+- incluir no .gitignore
 - npm init -y (criar o projeto node)
 
 - instalar typescript de forma local (npm i typescript -D)
@@ -33,3 +33,37 @@ ESLINT-
 npm i eslint -D
 npm i @typescript-eslint/eslint-plugin @typescript-eslint/parser -D
 criar arquivo .eslintrc.js
+
+copiar do repositorio e incluir no arquivo. .eslintrc.js
+- instalar prettier ,
+configuracoes ts config, , editor config , .vscode config
+
+TYPESCRIPT
+
+
+
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "lib": ["ES2016"],
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "module": "commonjs",
+    "rootDir": "./",
+    "types": ["jest", "node"],
+    "typeRoots": [
+      "@types",
+      "./node_modules/@types"
+    ],
+    "resolveJsonModule": true,
+    "allowJs": true,
+    "outDir": "dist",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "noImplicitAny": true,
+    "strictPropertyInitialization": false,
+    "skipLibCheck": true,
+    "sourceMap": true
+  },
+}
