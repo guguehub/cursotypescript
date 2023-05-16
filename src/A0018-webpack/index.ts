@@ -1,1 +1,3 @@
-console.log('ola mundo');
+import funcao from './mod';
+
+funcao();
