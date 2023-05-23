@@ -2,7 +2,7 @@ export class Escritor {
   //ferramenta privada setter do tipo ferramenta, ou pode ser null
   private _ferramenta: Ferramenta | null = null;
 
-  constructor(private nome: string) {}
+  constructor(private _nome: string) {}
 
   set ferramenta(ferramenta: Ferramenta | null) {
     this._ferramenta = ferramenta;
