@@ -1,5 +1,7 @@
 export function funcao(this: Date, nome: string, age: number): void {
+  // eslint-disable-next-line no-undef
   console.log(this);
+  // eslint-disable-next-line no-undef
   console.log(nome, age);
 }
 
