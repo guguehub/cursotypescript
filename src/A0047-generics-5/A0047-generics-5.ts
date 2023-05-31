@@ -56,4 +56,4 @@ while (!pilha.estaVazia()) {
   console.log(pilha.pop());
 }
 
-console.log(pilha);
+//console.log(pilha);
